@@ -14,6 +14,3 @@ def materias():
 def contato():
     return render_template("contato.html")
 
-
-if __name__ == '__main__':
-    app.run(port=5000, debug=True)
