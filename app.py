@@ -13,4 +13,3 @@ def materias():
 @app.route("/contato")
 def contato():
     return render_template("contato.html")
-
